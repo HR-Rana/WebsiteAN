@@ -1,0 +1,31 @@
+
+
+@media (max-width:768px) {
+    .section3 .item-area:nth-child(even){
+        float: none;
+     
+    }.section3 .item-area:nth-child(odd){
+        float: none;
+        
+    }
+    .section3 .item-area{
+        width: 100%;
+    }
+    .section3 .timeline::after{
+        display: none;
+        
+    }
+    .section12 .Offer-box{
+        display: block;
+    }
+    .section6 .flex{
+        display: block;
+    }
+    .section7 img{
+        margin-top: 5px;
+    }
+}
+
+@media (screen) {
+    
+}
